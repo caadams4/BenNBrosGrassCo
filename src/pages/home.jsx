@@ -1,5 +1,6 @@
 import * as React from "react";
 
+
 export default function Home() {
   return (
     <>
@@ -15,7 +16,7 @@ export default function Home() {
         <br></br>
         <p>
           <h3><b>The Team:</b><hr></hr></h3>
-          Ben Adams a.k.a <em>the boss</em><br></br>
+          Ben Adams a.k.a <em>the boss</em><lsbr></br>
           Charlie Adams<br></br>
           Beau Adams<br></br>
         </p>
