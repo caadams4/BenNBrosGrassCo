@@ -24,9 +24,9 @@ export default function Home() {
         <p>
           <h3><b>Contact Us</b></h3>
           <hr></hr>
-          Ben Adams a.k.a <em>the boss</em><br></br>
-          Charlie Adams<br></br>
-          Beau Adams<br></br>
+          Email:<br></br>
+          Phone:
+          
         </p>
         
       </body>
