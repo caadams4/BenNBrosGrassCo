@@ -7,16 +7,20 @@ export default function Home() {
       <body>
         <p>
           <h3><b>Services Offered:</b></h3>
+          <hr></hr>
           Grass Cutting<br></br>
           Weed Wacking<br></br>
           Yard Cleanup<br></br>
         </p>
+        <br></br>
         <p>
           <h3><b>The Team:</b></h3>
+          <hr></hr>
           Ben Adams a.k.a <em>the boss</em><br></br>
           Charlie Adams<br></br>
           Beau Adams<br></br>
         </p>
+        
       </body>
       <footer>
         
