@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <>
       <h1>Ben N' Bros Grass Co.</h1>
-      <div><b>Services Offered</b></div>
-      <br></br>
+      <div><b>Services Offered:</b></div>
       <p>
         Grass Cutting<br></br>
-      
+        Weed Wacking<br></br>
+        Yard Cleanup<br></br>
       </p>
     </>
   );
