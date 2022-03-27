@@ -2,6 +2,7 @@ dependencies:
   bootstrap: 5.1.3
   react: 17.0.2
   react-bootstrap: 2.2.1
+  react-calendar: 3.7.0
   react-dom: 17.0.2
   react-helmet-async: 1.2.3
   react-spring: 9.4.4
@@ -457,6 +458,10 @@ packages:
       node: '>=12.0.0'
     resolution:
       integrity: sha512-iNR/UqhUOmFFxiezt0em9CgmiJBdWR+5jGxB2FihaoJfqGt76kiwaKoVOJVU5NYcDWMdN06LbyN2VIGIoYdsEA==
+  /@wojtekmaj/date-utils/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-1VPkkTBk07gMR1fjpBtse4G+oJqpmE+0gUFB0dg3VIL7qJmUVaBoD/vlzMm/jNeOPfvlmerl1lpnsZyBUFIRuw==
   /ansi-styles/3.2.1:
     dependencies:
       color-convert: 1.9.3
@@ -759,6 +764,12 @@ packages:
       node: '>=6.9.0'
     resolution:
       integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
+  /get-user-locale/1.4.0:
+    dependencies:
+      lodash.once: 4.1.1
+    dev: false
+    resolution:
+      integrity: sha512-gQo03lP1OArHLKlnoglqrGGl7b04u2EP9Xutmp72cMdtrrSD7ZgIsCsUKZynYWLDkVJW33Cj3pliP7uP0UonHQ==
   /globals/11.12.0:
     dev: true
     engines:
@@ -810,6 +821,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
+  /lodash.once/4.1.1:
+    dev: false
+    resolution:
+      integrity: sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
   /loose-envify/1.4.0:
     dependencies:
       js-tokens: 4.0.0
@@ -817,6 +832,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  /merge-class-names/1.4.2:
+    dev: false
+    resolution:
+      integrity: sha512-bOl98VzwCGi25Gcn3xKxnR5p/WrhWFQB59MS/aGENcmUc6iSm96yrFDF0XSNurX9qN4LbJm0R9kfvsQ17i8zCw==
   /minimist/1.2.5:
     dev: true
     resolution:
@@ -907,6 +926,18 @@ packages:
       react-dom: '>=16.14.0'
     resolution:
       integrity: sha512-x8lpVQflsbevphuWbTnTNCatcbKyPJNrP2WyQ1MJYmFEcVjbTbai1yZhdlXr0QUxLQLxA8g5hQWb5TwJtaZoCA==
+  /react-calendar/3.7.0:
+    dependencies:
+      '@wojtekmaj/date-utils': 1.0.3
+      get-user-locale: 1.4.0
+      merge-class-names: 1.4.2
+      prop-types: 15.8.1
+    dev: false
+    peerDependencies:
+      react: ^16.3.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.3.0 || ^17.0.0 || ^18.0.0
+    resolution:
+      integrity: sha512-zkK95zWLWLC6w3O7p3SHx/FJXEyyD2UMd4jr3CrKD+G73N+G5vEwrXxYQCNivIPoFNBjqoyYYGlkHA+TBDPLCw==
   /react-dom/17.0.2:
     dependencies:
       loose-envify: 1.4.0
@@ -1129,6 +1160,7 @@ specifiers:
   bootstrap: ^5.1.3
   react: ^17.0.2
   react-bootstrap: ^2.2.1
+  react-calendar: ^3.7.0
   react-dom: ^17.0.2
   react-helmet-async: ^1.2.3
   react-spring: ^9.4.4

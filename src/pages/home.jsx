@@ -1,13 +1,13 @@
 import * as React from "react";
 import {Navbar} from 'reactstrap';
+import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css';
 
 
 export default function Home() {
   return (
-    <div>
-      <Navbar classname='nav'>
-      <h2>Ben N' Bros Grass Co.</h2>
-      </Navbar >
+    <>
+      <h1>Ben N' Bros Grass Co.</h1>
       <body>
         <p>
           <h3><b>Services Offered:</b><hr></hr></h3>
@@ -17,6 +17,9 @@ export default function Home() {
           Dog walking<br></br>
         </p>
         <br></br>
+        <div>Schedule your secices today!</div>
+        <br></br>
+        <Calendar></Calendar>
         <p>
           <h3><b>The Team:</b><hr></hr></h3>
           Ben Adams a.k.a <em>the boss</em><br></br>
@@ -36,6 +39,6 @@ export default function Home() {
         
       
       </footer>
-    </div>
+    </>
   );
 }

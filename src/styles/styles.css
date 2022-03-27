@@ -106,11 +106,19 @@ body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
 }
-
-.navbar {
-  background-color:black;
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+  min-height: 20vh;
 }
-
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Page titles */
 h1 {
@@ -118,7 +126,7 @@ h1 {
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 40px;
   line-height: 105%;
 }
 .page h1 {
