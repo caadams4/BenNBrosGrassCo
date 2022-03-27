@@ -10,7 +10,7 @@ export default function Home() {
       <h1>Ben N' Bros Grass Co.</h1>
       <body>
         <p>
-          <h3 classname='text-center'><b>Services Offered:</b><hr></hr></h3>
+          <h3 classname='text-center'><b>What we offer:</b><hr></hr></h3>
           Grass Cutting<br></br>
           Weed Wacking<br></br>
           Yard Cleanup<br></br>
@@ -21,10 +21,11 @@ export default function Home() {
         <br></br>
         <Calendar></Calendar>
         <p>
-          <h3><b>The Team:</b><hr></hr></h3>
-          Ben Adams a.k.a <em>the boss</em><br></br>
-          Charlie Adams<br></br>
-          Beau Adams<br></br>
+          <h3><b>Who we are:</b><hr></hr></h3>
+            Three bothers. The boss: a middle school kid<br></br>
+            with a passion for the grass, accompanied by<br></br>
+            his three student-veteran brothers in creating<br></br>
+        
         </p>
         <br></br>
         <p>
