@@ -1,10 +1,13 @@
 import * as React from "react";
+import {Navbar} from 'reactstrap';
 
 
 export default function Home() {
   return (
-    <>
+    <div>
+      <Navbar classname='nav'>
       <h2>Ben N' Bros Grass Co.</h2>
+      </Navbar >
       <body>
         <p>
           <h3><b>Services Offered:</b><hr></hr></h3>
@@ -16,7 +19,7 @@ export default function Home() {
         <br></br>
         <p>
           <h3><b>The Team:</b><hr></hr></h3>
-          Ben Adams a.k.a <em>the boss</em><lsbr></br>
+          Ben Adams a.k.a <em>the boss</em><br></br>
           Charlie Adams<br></br>
           Beau Adams<br></br>
         </p>
@@ -33,6 +36,6 @@ export default function Home() {
         
       
       </footer>
-    </>
+    </div>
   );
 }

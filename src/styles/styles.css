@@ -106,19 +106,11 @@ body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
 }
-.wrapper {
-  min-height: var(--wrapper-height);
-  display: grid;
-  place-items: center;
-  margin: 0 1rem;
-  min-height: 20vh;
+
+.navbar {
+  background-color:black;
 }
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 
 /* Page titles */
 h1 {
