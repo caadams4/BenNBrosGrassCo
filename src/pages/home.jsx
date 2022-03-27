@@ -10,7 +10,7 @@ export default function Home() {
       <h1>Ben N' Bros Grass Co.</h1>
       <body>
         <p>
-          <h3><b>Services Offered:</b><hr></hr></h3>
+          <h3 classname='text-center'><b>Services Offered:</b><hr></hr></h3>
           Grass Cutting<br></br>
           Weed Wacking<br></br>
           Yard Cleanup<br></br>
