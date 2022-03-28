@@ -2,7 +2,7 @@ import * as React from "react";
 import {Navbar} from 'reactstrap';
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
-import register from '../components/register';
+import Register from './register.jsx';
 
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         <br></br>
         <div>Schedule your services today!</div>
         <br></br>
-        <register></register>
+        <Register></Register>
         <br></br><br></br>
         <p>
           <h3><b>Who we are:</b><hr></hr></h3>
