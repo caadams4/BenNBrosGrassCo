@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Navbar} from 'reactstrap';
+import {Navbar} from 'react-bootstrap';
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
 import Register from './register.jsx';
@@ -7,7 +7,7 @@ import Register from './register.jsx';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <h1>Ben N' Bros Grass Co.</h1>
       <body>
         <p>
@@ -43,6 +43,6 @@ export default function Home() {
         
       
       </footer>
-    </>
+    </div>
   );
 }
