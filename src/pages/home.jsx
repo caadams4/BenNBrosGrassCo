@@ -2,6 +2,7 @@ import * as React from "react";
 import {Navbar} from 'reactstrap';
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
+import register from '../components/register';
 
 
 export default function Home() {
@@ -17,16 +18,17 @@ export default function Home() {
           Dog walking<br></br>
         </p>
         <br></br>
-        <div>Schedule your secices today!</div>
+        <div>Schedule your services today!</div>
         <br></br>
-        <Calendar></Calendar>
+        <register></register>
+        <br></br><br></br>
         <p>
           <h3><b>Who we are:</b><hr></hr></h3>
             Three bothers. The boss: a middle school kid<br></br>
             with a passion for the grass, accompanied by<br></br>
             his three student-veteran brothers. We are of<br></br>
             the belief that an allowance is no way to teach<br></br> 
-            a young person to fair in the world today. 
+            a young person to fare in the world today. 
         </p>
         <br></br>
         <p>
