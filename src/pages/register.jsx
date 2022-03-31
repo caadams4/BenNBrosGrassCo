@@ -1,14 +1,28 @@
 import React, { useState } from "react";
 //import { Container, Row, Col} from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
-import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import Calendar from "react-calendar";
 import "bootstrap/dist/css/bootstrap.css";
 import "react-calendar/dist/Calendar.css";
 
+let services = [
+  {service: 'Grass Cutting', selected: false},
+  {service: 'Weed Whacking', selected: false},
+  {service: 'Yard Cleanup', selected: false},
+  {service: 'Dog Walking', selected: false},
+];
+
 export default function Register() {
   const [grass, setGrass] = useState(false);
+  const [serviceValue, setServiceValue] = useState("1");
+
+  const radios = [
+    { name: "Active", value: "1" },
+    { name: "Radio", value: "2" },
+    { name: "Radio", value: "3" },
+  ];
 
   const handleChange = (val) => setGrass(!val);
 
@@ -34,16 +48,14 @@ export default function Register() {
         </Dropdown>
 
         <br></br>
-        
-        <ToggleButtonGroup
-          type="checkbox"
-        >
-          <ToggleButton id="tbg-btn-1" 
-          grass={grass}
-          onChange={handleChange}>
-           Grass Cutting
+
+      <ButtonGroup>
+        {services.map((s) => (
+          <ToggleButton>
+            {s.name}
           </ToggleButton>
-        </ToggleButtonGroup>
+        ))}
+      </ButtonGroup>
       </form>
     </div>
   );
