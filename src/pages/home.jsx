@@ -28,7 +28,9 @@ export default function Home() {
             with a passion for the grass, accompanied by<br></br>
             his three student-veteran brothers. We are of<br></br>
             the belief that an allowance is no way to teach<br></br> 
-            a young person to fare in the world today. 
+            a young person to fare in the world today, and<br></br>
+            money earned must be equal to to that of their<br></br>
+            service.
         </p>
         <br></br>
         <p>
