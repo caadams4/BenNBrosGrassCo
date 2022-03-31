@@ -24,7 +24,7 @@ export default function Home() {
         <br></br><br></br>
         <p>
           <h3><b>Who we are:</b><hr></hr></h3>
-            Three bothers. The boss: a middle school kid<br></br>
+            Four bothers. The boss: a middle school kid<br></br>
             with a passion for the grass, accompanied by<br></br>
             his three student-veteran brothers. We are of<br></br>
             the belief that an allowance is no way to teach<br></br> 

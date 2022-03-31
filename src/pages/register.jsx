@@ -2,6 +2,7 @@ import React, { useState } from "react";
 //import { Container, Row, Col} from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import Calendar from "react-calendar";
 import "bootstrap/dist/css/bootstrap.css";
 import "react-calendar/dist/Calendar.css";
@@ -45,6 +46,24 @@ export default function Register() {
         {services.map((s) => (
           <Form.Check type={"checkbox"} id={s.service} label={s.service} />
         ))}
+        <p>
+          <br></br>
+          <Form.Control type="email" aria-describedby="passwordHelpBlock" />
+          <Form.Text>What's your name?</Form.Text>
+        </p>
+        <p>
+          <Form.Control type="text" aria-describedby="passwordHelpBlock" />
+          <Form.Text>What's your email?</Form.Text>
+        </p>
+        <p>
+          <Form.Control type="text" aria-describedby="passwordHelpBlock" />
+          <Form.Text>What's your phone number?</Form.Text>
+        </p>
+        <p>
+          <Form.Control type="text" aria-describedby="passwordHelpBlock" />
+          <Form.Text>Please leave comments or notes to our crew.</Form.Text>
+        </p>
+        <Button type='submit'>Submit</Button>
       </Form>
     </div>
   );
