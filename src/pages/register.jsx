@@ -60,10 +60,15 @@ export default function Register() {
           <Form.Text>What's your phone number?</Form.Text>
         </p>
         <p>
-          <Form.Control type="text" aria-describedby="passwordHelpBlock" />
+          <Form.Control
+            rows={3}
+            as="textarea"
+            type="text"
+            aria-describedby="passwordHelpBlock"
+          />
           <Form.Text>Please leave comments or notes to our crew.</Form.Text>
         </p>
-        <Button type='submit'>Submit</Button>
+        <Button type="submit">Submit</Button>
       </Form>
     </div>
   );

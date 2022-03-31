@@ -29,8 +29,8 @@ export default function Home() {
             his three student-veteran brothers. We are of<br></br>
             the belief that an allowance is no way to teach<br></br> 
             a young person to fare in the world today, and<br></br>
-            money earned must be equal to to that of their<br></br>
-            service.
+            that money must be rightly earned only in <br></br>
+            equal proportion to their service.
         </p>
         <br></br>
         <p>
