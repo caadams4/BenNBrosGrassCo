@@ -22,10 +22,15 @@ export default function Register() {
   const [phone,setPhone] = useState('');
   const [notes,setNotes] = useState('');
   const [time,setTime] = useState('');
-  const [day,setTime] = useState('');
+  const [day,setDay] = useState('');
   
   
   const handleChange = (val) => setGrass(!val);
+  
+  const handleSubmit = event => {
+     console.log('submit!') 
+  }
+  
 
   return (
     <div>
@@ -51,7 +56,7 @@ export default function Register() {
         <br></br>
 
         {services.map((s) => (
-          <Form.Check type={"checkbox"} id={s.service} label={s.service} />
+          <Form.Check key={s.service} type={"checkbox"} id={s.service} label={s.service} />
         ))}
         <p>
           <br></br>
@@ -75,7 +80,7 @@ export default function Register() {
           />
           <Form.Text>Please leave comments or notes to our crew.</Form.Text>
         </p>
-        <Button type="submit">Submit</Button>
+        <Button type="submit" onSubmit={handleSubmit()}>Submit</Button>
       </Form>
     </div>
   );
