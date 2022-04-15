@@ -18,17 +18,36 @@ export default function Register() {
   const [grass, setGrass] = useState(false);
   const [serviceValue, setServiceValue] = useState(services);
   const [name,setName] = useState('');
-  const [emial,setEmail] = useState('');
+  const [email,setEmail] = useState('');
   const [phone,setPhone] = useState('');
   const [notes,setNotes] = useState('');
   const [time,setTime] = useState('');
   const [day,setDay] = useState('');
   
   
-  const handleChange = (val) => setGrass(!val);
+  const handleChange = (val) => {
+    event.preventDefault();
+    setGrass(!val);
+  }
   
   const handleSubmit = event => {
-     console.log('submit!') 
+    event.preventDefault();
+    console.log(event.target);
+    
+    let job = {
+      name:name,
+      email:email,
+      phone:phone,
+      nates:notes,
+      time:time,
+      day:day,
+      services:serviceValue,
+    }
+    
+    //firebase push job
+    
+    
+    
   }
   
 
@@ -80,7 +99,7 @@ export default function Register() {
           />
           <Form.Text>Please leave comments or notes to our crew.</Form.Text>
         </p>
-        <Button type="submit" onSubmit={handleSubmit()}>Submit</Button>
+        <Button type="submit" onSubmit={handleSubmit(event)}>Submit</Button>
       </Form>
     </div>
   );
