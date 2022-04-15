@@ -17,7 +17,14 @@ let services = [
 export default function Register() {
   const [grass, setGrass] = useState(false);
   const [serviceValue, setServiceValue] = useState(services);
-
+  const [name,setName] = useState('');
+  const [emial,setEmail] = useState('');
+  const [phone,setPhone] = useState('');
+  const [notes,setNotes] = useState('');
+  const [time,setTime] = useState('');
+  const [day,setTime] = useState('');
+  
+  
   const handleChange = (val) => setGrass(!val);
 
   return (
